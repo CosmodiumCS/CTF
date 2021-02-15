@@ -1,0 +1,4 @@
+Found: /.hta (Status: 403)
+Found: /.git/HEAD (Status: 403)
+Found: /.htaccess (Status: 200)
+Found: /.htpasswd (Status: 403)

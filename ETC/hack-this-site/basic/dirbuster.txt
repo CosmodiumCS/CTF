@@ -1,0 +1,2 @@
+Found: /e (Status: 301)
+Found: /index.php (Status: 200)
