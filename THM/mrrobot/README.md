@@ -68,3 +68,7 @@ EXPLOIT
 nmap --interactive
 !sh
 ```
+NAVIGATE TO ROOT DIRECTORY AND OBTAIN CAT KEY FILE
+```
+04787ddef27c3dee1ee161b21670b4e4
+```
