@@ -1,0 +1,23 @@
+$git cat-file -p e7d4663ac6b436f95684c8bfc428cef0d7731455
+tree f81c5eabcc0c2d20cd6b231dbadc6dc225e8abc9
+parent 4c88ac1c56fe228267cf415c3ef87d7c3b8abd60
+author Leo Rison <leo.rison@constellations.page> 1614126014 -0500
+committer Leo Rison <leo.rison@constellations.page> 1614126014 -0500
+
+Management said I need to remove the team details so I redacted that page and added it to robots.txt
+<li><h4><b>Orion Morra</b> &mdash; Support</h4></li>
+-
+<li><h4><b>Lyra Patte</b> &mdash; Marketing</h4></li>
+-
+<li><h4><b>Leo Rison</b> &mdash; Development</h4></li>
+-
+<li><h4><b>Gemini Coley</b> &mdash; Operations</h4></li>
+-
+<li><h4><b>Hercules Scoxland</b> &mdash; Sales</h4></li>
+-
+<li><h4><b>Vela Leray</b> &mdash; Management</h4></li>
+-
+<li><h4><b>Pavo Welly</b> &mdash; HR</h4></li>
+-<li><h4><b>Gus Rodry</b> &mdash; Accounting</h4></li>
+-
+<!-- <li><h4><b>flag{4063962f3a52f923ddb4411c139dd24c}</b></h4></li> -->
